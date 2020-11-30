@@ -32,10 +32,16 @@ session_start();
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                
             <ul class="nav navbar-nav">
+                    
+            <li><a href="https://www.facebook.com/balanghaistudios" target="_blank">Facebook page</a></li>
+
+            /*<li><a href="#">About us</a></li>
+
+           <li><a href="#">Contact us</a></li> */
 
         <?php
 
-            $query = "select *from categories";
+           /* $query = "select *from categories";
 
             $result = mysqli_query($con, $query);
 
@@ -45,7 +51,7 @@ session_start();
 
                 echo " <li><a href='#'>{$cat_title}</a></li>";
 
-            }
+            } */
 
         ?>
 
