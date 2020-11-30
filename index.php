@@ -1,8 +1,8 @@
             <!-- HEADER SECTION -->
-            <?php  require_once "includes/header.php"  ?>;
+            <?php  require_once "includes/header.php"  ?>
 
                 <!-- NAVIGATION -->
-                <?php  require_once "includes/nav.php"  ?>;
+                <?php  require_once "includes/nav.php"  ?>
 
                 <!-- Page Content -->
                 <div class="container">
