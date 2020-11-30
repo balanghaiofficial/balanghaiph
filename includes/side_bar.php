@@ -95,9 +95,14 @@
 
                     <!-- Side Widget Well -->
                     <div class="well">
-                        <h4>Side Widget Well</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
-                    </div>
+                      
+                      <h3><strong>Vision</strong></h3>
+                        <p>Be the leading advocate of propagating Philippine culture through video games in the country for the next five years.</p>
+
+                        <h3><strong>Mission</strong></h3>
+                        <p>To promote and spread cultural awareness of Philippine traditions and beliefs through video games.</p>
+                      
+                        </div>
 
                     </div>
 
