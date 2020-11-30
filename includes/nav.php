@@ -3,7 +3,7 @@
 require_once "includes/db.php";
 session_start();
 
-?>;
+?>
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 
