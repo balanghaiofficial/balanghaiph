@@ -27,29 +27,7 @@
                 $data = mysqli_query($con, $query);
 
                 $data1 = mysqli_query($con, $query1);
-
-                 $post_status = "";
-
-                    while($row = mysqli_fetch_assoc($data)){
-
-                        $post_id = $row['post_id'];
-
-                        $post_title = $row['post_title'];
-
-                        $post_author = $row['post_author'];
-
-                        $post_date = $row['post_date'];
-
-                        $post_img = $row['post_img'];
-
-                        $post_content = $row['post_content'];
-
-                        $post_tags = $row['post_tags'];
-
-                        $post_status = $row['post_status'];
-
-                    }
-
+                 
                 while($row = mysqli_fetch_assoc($data)){
 
                     $post_title = $row['post_title'];
