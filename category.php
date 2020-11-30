@@ -21,8 +21,12 @@
                     }
                 
                 $query = "select * from posts where post_cat_id='$Category_ID'";
+                
+                $query1 = "select * from posts where post_status = 'published'";
 
                 $data = mysqli_query($con, $query);
+
+                $data1 = mysqli_query($con, $query1);
 
                 while($row = mysqli_fetch_assoc($data)){
 
